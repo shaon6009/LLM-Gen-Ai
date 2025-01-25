@@ -20,7 +20,7 @@ from IPython.display import display, Image
 from langchain_groq import ChatGroq
 llm = ChatGroq(
     temperature = 0,
-    groq_api_key= "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",
+    groq_api_key= "gsk_RHCBRhSWlS8tbxo1jSimWGdyfghfdtyudb3FYlVgf14l1wuLFEpkF7wrmtm5K",
     model_name = "llama-3.3-70b-versatile"
 )
 
