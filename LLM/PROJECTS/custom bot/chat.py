@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 #     st.error("Google API Key not found. Please set it in a .env file.")
 #     st.stop()
 
-api_key = "AIzaSyAZSVrLnYWBdIT9asZu7Qo5Y9EtN7taHFM"
+api_key = ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
 
 genai.configure(api_key=api_key)
 model = genai.GenerativeModel("gemini-pro")
