@@ -1,0 +1,139 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you?",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Yo",
+        "What's up?"
+      ],
+      "responses": [
+        "Hello! How can I assist you with programming today?",
+        "Hi there! Need help with coding, career advice, or learning new tech?",
+        "Hey! What programming challenge or career goal are you tackling today?",
+        "Yo! Ready to debug some code, build logic, or explore tech growth opportunities?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Catch you later",
+        "I'm out"
+      ],
+      "responses": [
+        "Goodbye! Keep coding and see you soon!",
+        "Take care! Keep growing in your programming journey!",
+        "See you later! Feel free to ask more questions anytime.",
+        "Catch you later! Keep learning and improving!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks a lot!",
+        "Appreciate it",
+        "Much obliged"
+      ],
+      "responses": [
+        "You're welcome! Happy coding and keep pushing forward!",
+        "Glad I could help! Stay motivated and keep improving!",
+        "Anytime! Don't hesitate to ask more questions.",
+        "No problem! Keep up the great work and keep learning."
+      ]
+    },
+    {
+      "tag": "programming_languages",
+      "patterns": [
+        "What programming languages should I learn?",
+        "Which language is best for beginners?",
+        "Tell me about Python/Java/JavaScript/etc.",
+        "What's the easiest language to start with?",
+        "What language should I learn for web development?",
+        "Which language is best for mobile development?",
+        "Is Rust better than C++?",
+        "What's the difference between Java and Kotlin?"
+      ],
+      "responses": [
+        "It depends on your goal! Python is great for beginners and AI, Java is powerful for enterprise applications, and JavaScript is essential for web development.",
+        "If you're new to coding, Python is a great choice! If you're interested in web development, JavaScript is a must.",
+        "For web development, start with HTML, CSS, and JavaScript. For data science, Python is a great option.",
+        "For mobile development, Swift is used for iOS, while Kotlin is preferred for Android.",
+        "Rust is safer than C++ due to memory safety guarantees but has a steeper learning curve.",
+        "Kotlin is more concise and has better null safety than Java for Android development."
+      ]
+    },
+    {
+      "tag": "debugging",
+      "patterns": [
+        "How do I fix this error?",
+        "My code isn't working",
+        "Help me debug this issue",
+        "Why am I getting this error message?",
+        "Can you help me find the bug in my code?",
+        "What is a segmentation fault?",
+        "Why am I getting a null pointer exception?",
+        "What does 'index out of range' mean?"
+      ],
+      "responses": [
+        "I'd love to help! Please share your error message or a snippet of your code.",
+        "Debugging is part of the journey! What issue are you facing?",
+        "Check for syntax errors, missing dependencies, or logic mistakes. If you share your code, I can help you further!",
+        "Try breaking your code into smaller parts to isolate the issue. If you need help, I’m here!",
+        "A segmentation fault usually occurs when you access memory incorrectly in languages like C/C++.",
+        "A null pointer exception means you are trying to access an object that hasn’t been initialized.",
+        "'Index out of range' happens when you try to access an index beyond the available range in an array or list."
+      ]
+    },
+    {
+      "tag": "career_guidance",
+      "patterns": [
+        "How can I grow as a developer?",
+        "What should I do after learning programming?",
+        "How do I get a programming job?",
+        "What are some good programming projects to build?",
+        "Should I specialize in frontend, backend, or full-stack?",
+        "How do I prepare for technical interviews?",
+        "What are some good software engineering career paths?"
+      ],
+      "responses": [
+        "To grow as a developer, keep building projects, contribute to open source, and stay updated with new technologies.",
+        "After learning programming, start building projects, contribute to GitHub, and explore job opportunities or freelancing.",
+        "To get a programming job, create a portfolio, sharpen your coding skills, and practice coding interviews on platforms like LeetCode and HackerRank.",
+        "Building projects is key! Try making a portfolio website, a to-do app, or contributing to open-source projects.",
+        "Frontend development focuses on user interfaces, backend handles logic and databases, while full-stack covers both! Choose based on your interest.",
+        "Prepare for technical interviews by practicing data structures, algorithms, and system design. Also, work on real-world projects!",
+        "Software engineering offers many career paths: web development, mobile development, data science, DevOps, cybersecurity, and more!"
+      ]
+    },
+    {
+      "tag": "logic_building",
+      "patterns": [
+        "How can I improve my problem-solving skills?",
+        "How do I build better programming logic?",
+        "What are some good coding exercises for logic building?",
+        "How do I think like a programmer?",
+        "What are some common coding patterns?",
+        "Where can I practice logic-building exercises?"
+      ],
+      "responses": [
+        "To improve problem-solving, practice coding challenges on platforms like CodeWars, LeetCode, and HackerRank.",
+        "To build better programming logic, start with small problems, break them into steps, and think algorithmically.",
+        "Good coding exercises include sorting algorithms, recursion problems, and dynamic programming challenges.",
+        "Thinking like a programmer means breaking problems into small parts, understanding patterns, and debugging effectively.",
+        "Common coding patterns include sliding window, two-pointer technique, recursion, and dynamic programming.",
+        "You can practice logic-building exercises on sites like GeeksforGeeks, CodeForces, and Project Euler."
+      ]
+    }
+  ]
+}
