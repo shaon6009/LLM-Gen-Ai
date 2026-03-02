@@ -1,4 +1,4 @@
-Note: If any file appears invalid Speacially the 1st and 2ed file ause of large file size, please download it and upload it to your Google Drive. Then open it from Drive— it will automatically open and run properly in Google Colab.
+==> Note: If any file appears invalid Speacially the 1st and 2ed file ause of large file size, please download it and upload it to your Google Drive. Then open it from Drive— it will automatically open and run properly in Google Colab.
 
 # Multimodal RAG System (Text, Image, Video, and Audio)
 
@@ -44,3 +44,4 @@ audio_processing.ipynb: Focuses on processing audio data for semantic search usi
 
 
 True_Multimodal_RAG.ipynb: The main orchestration notebook that integrates the components into a cohesive RAG architecture
+
