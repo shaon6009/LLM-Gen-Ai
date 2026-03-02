@@ -1,6 +1,6 @@
-# Multimodal RAG System (Text, Image, Video, and Audio)
-Note: If any file appears invalid, please download it and upload it to your Google Drive. Then open it from Drive— it will automatically open and run properly in Google Colab.
+Note: If any file appears invalid Speacially the 1st and 2ed file ause of large file size, please download it and upload it to your Google Drive. Then open it from Drive— it will automatically open and run properly in Google Colab.
 
+# Multimodal RAG System (Text, Image, Video, and Audio)
 
 Project Overview
 This project demonstrates an end-to-end Multimodal Retrieval-Augmented Generation (RAG) system designed to ingest, process, and perform semantic search across heterogeneous data types, including text, images, video, and audio. By leveraging advanced vector search technologies and multimodal embedding models, the project enables cross-modal querying—allowing users to search through different media formats using natural language.
@@ -41,5 +41,6 @@ image-retrieval.ipynb: Implements image-to-text and text-to-image retrieval usin
 video-retrival.ipynb: Manages video indexing and retrieval based on query relevance.
 
 audio_processing.ipynb: Focuses on processing audio data for semantic search using CLAP.
+
 
 True_Multimodal_RAG.ipynb: The main orchestration notebook that integrates the components into a cohesive RAG architecture
