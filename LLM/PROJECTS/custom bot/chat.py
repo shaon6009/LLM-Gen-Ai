@@ -35,11 +35,9 @@ if "chat_history" not in st.session_state:
 user_input = st.text_input("You:", "")
 
 if user_input:
-    # Combine user input with custom data
     prompt = f"Use the following information to answer: {custom_data}\n\nUser: {user_input}"
 
     try:
-        # Generate response
         response = model.generate_content([prompt])  # Gemini API requires input as a list
 
         # Ensure response exists
